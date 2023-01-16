@@ -1,0 +1,69 @@
+button {
+    outline: none;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    position: relative;
+    background: transparent;
+    color: #b9beb0;
+    text-transform: uppercase;
+    border: 3px solid #57ffa3;
+    cursor: pointer;
+    transform: all 0.7s;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+button :hover {
+    color: #222228;
+}
+
+button span {
+    transform: all 0.7s;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    background: #ffee57;
+}
+
+button .primeiro {
+    right: 100%;  
+    top: 0; 
+}
+
+button:hover .primeiro {
+    top: 0;
+    right: 0;
+}
+
+button .segundo {
+    left: 25%;
+    top: -100%;
+    
+}
+
+button:hover .segundo {
+    top: 0;
+    left: 50%;
+}
+
+button .terceiro {
+    left: 50%;
+    top: 100%;
+}
+
+button:hover .terceiro {
+    top: 0;
+    left: 25%;
+}
+
+button .quarto {
+    left: 100%;
+    top: 0;
+}
+
+button:hover .quarto {
+    top: 0;
+    left: 0;
+}
